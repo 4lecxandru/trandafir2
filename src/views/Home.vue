@@ -1,7 +1,7 @@
 <template>
   <div class="home uk-flex uk-flex-column">
     <div class="uk-position-center textul uk-flex uk-flex-middle uk-flex-center uk-height-1-1"><span>Scroll down</span> <span uk-icon="icon:chevron-down;ratio:2" class="iconn"></span></div>
-<div class="gradient"></div><div class="background"></div>
+<div class="background"></div>
     <div class="uk-text-center  trandafir" style="" uk-parallax="stroke: 100%; viewport: 1">
           <img class="svg "  src="../assets/trandafirMini1.svg" alt="" uk-svg="">
     </div>
@@ -74,4 +74,6 @@ font-size:2em;}
 .iconn svg{transform:translateY(0.35em)!important;
 stroke: white!important;
 }
+
+    .svg{max-width:100vw!important;}
 </style>
